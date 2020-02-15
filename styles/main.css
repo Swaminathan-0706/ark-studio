@@ -76,32 +76,16 @@
     font-family: sans-serif;
 
 }
-.flex_services,#ser_1,#ser_2,#ser_3{
-    
+.flex_services{
     padding:0;
     margin: 0;
     list-style-type: none;
     display: flex;
-        justify-content: space-between;
+    justify-content: center;
+    justify-content: space-around;
     
 }
-.flex_desc,#desc_1,#desc_2,#desc_3{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-}
-#des_1,#des_2,#des_3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#ser_2,#des_2{
-    margin-left: -10%;
-}
-#ser_3{
-    margin-right: 10%;
-}
-#ser_1{
-    margin-left: 5%;
-}
+
 .recent_work{
     margin-left: -20px;
     width: 101.7%;
