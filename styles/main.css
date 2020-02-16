@@ -6,11 +6,11 @@
     margin: -20px;
     }
 #nav_list{
-    margin-top: 0px;
+    margin-top: 28px;
     margin-bottom: 200px;
     list-style-type:none;
     margin-left: 600px;
-    
+    margin-left: 950px;
 }
 #nav_item_1,#nav_item_2,
 #nav_item_3,#nav_item_4{
@@ -20,17 +20,11 @@
     font-family: helvetica;
     float: left;
     }
-#hf1,#hf2,#hf3,#hf4{
-        text-decoration: none;
-        color:brown;
-    }
-     
-
-#nav_list{
-    margin: 0%;
-    margin-top: 25px;
-    margin-left: 950px;
+a{
+    text-decoration: none;
+    color:brown;
 }
+
 #ark{
     padding-bottom: 10px;
     margin-left: 175px;
@@ -59,7 +53,7 @@
     display:inline-block;
     margin-left: 20px;
 }
-#section-1{
+.section-1{
     
     position: absolute;
     top:0px;
@@ -132,8 +126,8 @@ img{
     padding:10px;
     margin-left: 10%;
 }
-#comp_list,#comp_item_1,#comp_item_2,#comp_item_3,#comp_item_4{
-    list-style-type: none;
+#comp_list a{
+    
     text-decoration: none;
     color:white;
     
@@ -145,11 +139,12 @@ img{
     margin-left: 10%;
     margin-top: 2px;
 }
-#sup_list,#sup_item_1,#sup_item_2,#sup_item_3{
-    list-style-type: none;
+#sup_list a  {
     text-decoration: none;
     color:white;
-    
+}
+li{
+    list-style-type: none;
 }
 .ark_studio{
     color:white;
