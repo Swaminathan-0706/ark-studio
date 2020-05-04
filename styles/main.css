@@ -1,16 +1,18 @@
 .transparent_nav{
-    background-color:  rgba(228, 220, 220, 0.7);
+    background-color:  rgba(207, 200, 200, 0.7);
     width:101.2%;
     height:120px;
-    position: fixed;
-    margin: -20px;
+    position:fixed;
+    top:0px; 
+    
     }
-#nav_list{
-    margin-top: 28px;
+.nav_list{
+    margin-top: 24px;
     margin-bottom: 200px;
     list-style-type:none;
     margin-left: 600px;
     margin-left: 950px;
+    
 }
 #nav_item_1,#nav_item_2,
 #nav_item_3,#nav_item_4{
@@ -22,7 +24,11 @@
     }
 a{
     text-decoration: none;
-    color:brown;
+    color:black;
+    font-size: 26px;
+}
+a:hover{
+    color:navy;
 }
 
 #ark{
@@ -31,10 +37,14 @@ a{
     float:left;
 }
 .cta{
+    background-color:  rgba(228, 220, 220, 0.7);
     height: 103px;
     width: 101.2%;
     margin:-20px;
-    background-color:  rgba(228, 220, 220, 0.7);
+    margin-top: 42%;
+    
+    
+    
 }
 #cta_link{
     font-family: Arial, Helvetica, sans-serif;
@@ -45,24 +55,41 @@ a{
     background-color: rgb(55, 176, 224);
     padding:12px;
     margin-left: 550px;
+    vertical-align: middle;
 }
 #cta_text{
     font-family: Arial, Helvetica, sans-serif;
     color:darkred;
     font-size: 25px;
     display:inline-block;
-    margin-left: 20px;
+    margin-left: 35px;
+    vertical-align: middle;
 }
 .section-1{
-    
+
     position: absolute;
     top:0px;
     left:0px;
     right:0px;
-    bottom:0px;
+    
 }
+.section-2{
+    margin-top: 52%;
+}
+.section-3{
+    margin-top: 150px;
+}
+.img_1{
+    
+    height:670px;
+    width:100%;
+}
+.testimonials{
+    margin-top: 45%;
+}
+
 .service_text{
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 32.34%;
     font-family: sans-serif;
 
@@ -74,7 +101,9 @@ a{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    
+    text-align: center;
+    color: rgb(126, 123, 123);
+    font-family:Helvetica;
 }
 
 .recent_work{
@@ -82,15 +111,23 @@ a{
     width: 101.7%;
 
 }
-img{
+img
+{
     float: left;
+    }
+.img1,.img2,.img3
+{
+        border-radius: 50%;
+        
+        margin-left: 100px;
     }
         
 .test_text{
         font-size: 35px;
-        margin-left: 43%;
+        
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: brown;
+        text-align: center;
 }
 .flex_tst{
     list-style-type: none;
@@ -100,14 +137,22 @@ img{
 }
 #test1,#test2,#test3{
     margin-top: 140px;
+    text-align: center;
+    color: rgb(126, 123, 123);
+}
+.p1{
+    text-align: center;
+    font-family:Helvetica;
+    color: rgb(126, 123, 123);
 }
 
 
 
 .footer_widget{
     background-color: black;
-    height:300px;
-    margin:-8px;
+    height:400px;
+    margin:-8px; 
+      
     width:101%;
     display:flex;
     justify-content: space-around;
@@ -161,3 +206,10 @@ font-size: 25px;;
 text-align: center;
 align-content: center;
 }
+#footer1{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    
+    
+}
+
